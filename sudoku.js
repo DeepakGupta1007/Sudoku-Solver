@@ -10,6 +10,8 @@ const newGrid = (size) => {
         arr[Math.floor(i/size)][i%size] = CONSTANT.UNASSIGNED;
     }
 
+
+    
     return arr;
 }
 
