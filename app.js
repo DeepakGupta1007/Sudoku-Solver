@@ -3,6 +3,7 @@ document.querySelector('#dark-mode-toggle').addEventListener('click', () => {
     const isDarkMode = document.body.classList.contains('dark');
    // localStorage.setItem('darkmode', isDarkMode);
     // chang mobile status bar color
+    
     var g=document.getElementById("mode");
     if(isDarkMode)
      g.innerHTML="Light Mode";
