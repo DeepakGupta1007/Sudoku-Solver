@@ -7,6 +7,7 @@ document.querySelector('#dark-mode-toggle').addEventListener('click', () => {
     if(isDarkMode)
      g.innerHTML="Light Mode";
      else
+     
      g.innerHTML="Dark Mode";
     document.querySelector('meta[name="theme-color"').setAttribute('content', isDarkMode ? '#1a1a2e' : '#fff');
 });
