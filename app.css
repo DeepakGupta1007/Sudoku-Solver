@@ -1,6 +1,7 @@
 :root {
     --bg-main: #f0f2f5;
-    --bg-body: rgb(252, 218, 241);
+    /* --bg-body: rgb(252, 218, 241); */
+    --bg-body: rgb(233, 141, 80);
     --color-txt: #000;
     --filled-color: #000;
     --filled-bg: #1bcf75;
